@@ -1,70 +1,99 @@
-# Getting Started with Create React App
+# 🎓 LUCT Faculty Reporting System
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A comprehensive web-based reporting application for the Faculty of Information Communication Technology at LUCT. This system streamlines academic reporting and monitoring for students, lecturers, principal lecturers, and program leaders.
 
-## Available Scripts
+![LUCT System Demo](https://img.shields.io/badge/Status-Live-brightgreen)
+![React](https://img.shields.io/badge/React-18.2.0-blue)
+![License](https://img.shields.io/badge/License-MIT-yellow)
 
-In the project directory, you can run:
+## 🚀 Live Demo
 
-### `npm start`
+**Try the application here:** [Live Demo Link](https://your-username.github.io/luct-faculty-reporting-system)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 📋 Table of Contents
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- [Features](#features)
+- [User Roles](#user-roles)
+- [Technology Stack](#technology-stack)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Project Structure](#project-structure)
+- [Screenshots](#screenshots)
+- [Demo Accounts](#demo-accounts)
+- [Contributing](#contributing)
+- [License](#license)
 
-### `npm test`
+## ✨ Features
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Student Module
+- 📊 Personal dashboard with academic overview
+- 📋 Submit lecture attendance reports
+- ⭐ Rate courses and lecturers
+- 💬 Receive and view feedback
+- 📈 Monitor academic progress
 
-### `npm run build`
+### Lecturer Module  
+- 👥 Manage assigned classes
+- 📄 Submit teaching reports
+- 📊 View student attendance analytics
+- 💬 Provide student feedback
+- ⭐ View teaching ratings
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Principal Lecturer (PRL) Module
+- 📚 Oversee course offerings
+- 📋 Review and approve lecture reports
+- 💬 Provide feedback to lecturers
+- 📊 Monitor academic performance
+- 👥 Manage class allocations
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Program Leader (PL) Module
+- 🎯 Full system administration
+- 📚 Add and manage courses
+- 👨‍🏫 Assign lecturers to modules
+- 📄 Access comprehensive reports
+- ⚙️ System configuration
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 👥 User Roles
 
-### `npm run eject`
+| Role | Access Level | Key Features |
+|------|-------------|--------------|
+| **Student** | Basic | Report submission, Progress monitoring |
+| **Lecturer** | Intermediate | Class management, Report submission |
+| **Principal Lecturer** | Advanced | Course oversight, Feedback system |
+| **Program Leader** | Administrator | Full system management |
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## 🛠 Technology Stack
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Frontend
+- **React** 18.2.0 - User interface framework
+- **React Router DOM** - Navigation and routing
+- **Context API** - State management
+- **CSS3** - Styling with modern features
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Development Tools
+- **Create React App** - Project bootstrapping
+- **Git** - Version control
+- **GitHub Pages** - Deployment platform
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Key Features
+- 🔐 Role-based authentication
+- 📱 Fully responsive design
+- 🎨 Modern glass morphism UI
+- ⚡ Single Page Application (SPA)
+- 💾 Local storage for demo data
 
-## Learn More
+## 🚀 Installation
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Follow these steps to run the project locally:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Prerequisites
+- Node.js (version 14 or higher)
+- npm or yarn package manager
+- Modern web browser
 
-### Code Splitting
+### Step-by-Step Setup
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/lefulesele/luct-faculty-reporting-system.git
+   cd luct-faculty-reporting-system
